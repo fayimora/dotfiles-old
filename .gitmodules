@@ -75,8 +75,8 @@
   url = https://github.com/tpope/vim-surround.git
   ignore = dirty
 [submodule "vim/bundle/tpope-vim-rails"]
-  path = vim/bundle/tpope-vim-rails
-  url = https://github.com/tpope/vim-rails.git
+	path = vim/bundle/tpope-vim-rails
+	url = https://github.com/tpope/vim-rails.git
   ignore = dirty
 [submodule "vim/bundle/vim-ruby-vim-ruby"]
   path = vim/bundle/vim-ruby-vim-ruby
@@ -314,3 +314,6 @@
 [submodule "vim/bundle/mattn-webapi-vim"]
 	path = vim/bundle/mattn-webapi-vim
 	url = https://github.com/mattn/webapi-vim.git
+[submodule "vim/bundle/tpope-vim-pastie"]
+	path = vim/bundle/tpope-vim-pastie
+	url = https://github.com/tpope/vim-pastie.git
