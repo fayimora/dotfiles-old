@@ -106,5 +106,6 @@ for f in split(glob('~/.vim/plugin/settings/*.vim'), '\n')
   exe 'source' f
 endfor
 
+" ===============My Key overides================
 map! ii <Esc> " map ii to Esc
-map! ;; <Esc> " map ;; to Escc
+map! ;; <Esc> " map ;; to Esc
