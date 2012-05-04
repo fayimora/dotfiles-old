@@ -105,3 +105,6 @@ set sidescroll=1
 for f in split(glob('~/.vim/plugin/settings/*.vim'), '\n')
   exe 'source' f
 endfor
+
+map! ii <Esc> " map ii to Esc
+map! ;; <Esc> " map ;; to Escc
