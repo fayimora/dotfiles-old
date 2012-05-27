@@ -108,3 +108,6 @@ endfor
 " ===============My Key overides================
 map! ii <Esc> " map ii to Esc
 map! ;; <Esc> " map ;; to Esc
+" keep visual mode on  while indenting
+vnoremap < <gv
+vnoremap > >gv
