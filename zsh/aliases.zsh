@@ -33,6 +33,7 @@ alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
 # vim using
 #alias vim=$(brew ls macvim | grep Contents/MacOS/Vim)
 alias vim='vi'
+alias vi='mvim -v'
 
 # vimrc editing
 alias ve='vi ~/.vimrc'
@@ -101,7 +102,7 @@ alias cl='clear'
 alias gz='tar -zcvf'
 
 # Ruby
-alias c='script/console --irb=pry'
+alias c='rails c --irb=pry'
 alias ts='thin start'
 alias ms='mongrel_rails start'
 
