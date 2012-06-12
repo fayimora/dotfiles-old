@@ -251,8 +251,8 @@
   url = https://github.com/VimEz/ShowMarks.git
   ignore = dirty
 [submodule "vim/bundle/skwp-vim-powerline"]
-  path = vim/bundle/skwp-vim-powerline
-  url = https://github.com/skwp/vim-powerline
+	path = vim/bundle/skwp-vim-powerline
+	url = https://github.com/skwp/vim-powerline
   ignore = dirty
 [submodule "vim/bundle/kana-vim-arpeggio"]
   path = vim/bundle/kana-vim-arpeggio

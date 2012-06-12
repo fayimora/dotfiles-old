@@ -14,7 +14,7 @@ endif
 
   runtime bundle/tpope-vim-pathogen/autoload/pathogen.vim
   call pathogen#infect()
-  call pathogen#helptags()
+  silent! call pathogen#helptags()
 
 " ================ General Config ====================
 
@@ -33,6 +33,8 @@ set hidden
 
 "turn on syntax highlighting
 syntax on
+" set colorscheme 
+colorscheme herald
 
 " ================ Search Settings  =================
 
