@@ -32,7 +32,7 @@ alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
 
 # vim using
 #alias vim=$(brew ls macvim | grep Contents/MacOS/Vim)
-alias vim='vi'
+#alias vim='vi'
 alias vi='mvim -v'
 
 # vimrc editing
@@ -89,6 +89,7 @@ alias gsm='git submodule'
 alias gsmi='git submodule init'
 alias gsmu='git submodule update'
 alias gt='git t'
+alias git='hub'
 
 # Common shell functions
 alias less='less -r'
