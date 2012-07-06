@@ -113,3 +113,11 @@ map! ;; <Esc> " map ;; to Esc
 " keep visual mode on  while indenting
 vnoremap < <gv
 vnoremap > >gv
+
+
+func! SynStack()
+    if !exists("*synstack")
+        return
+    endif
+    echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
+endfunc
