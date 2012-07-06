@@ -1,6 +1,5 @@
 " Vim color file
-" Converted from my Textmate Code School theme using Coloration
-" http://astonj.com
+" Code School theme
 
 set background=dark
 highlight clear
