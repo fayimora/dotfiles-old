@@ -1,1 +1,1 @@
-/Users/fayimora/.gvimrc
+.gvimrc
